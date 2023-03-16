@@ -1,0 +1,91 @@
+.bill {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.bill-logo {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 10px;
+    grid-gap: 10px;
+}
+
+.bill-logo h1 {
+    margin: auto;
+}
+
+.bill p {
+    position: absolute;
+    top: 275px;
+    font-size: 12px;
+}
+
+.bill h4 {
+    position: absolute;
+    top: 305px;
+}
+
+.bill span {
+    position: absolute;
+    top: 335px;
+    font-size: 12px;
+}
+
+.bill-table {
+    position: absolute;
+    top: 355px;
+    width: 380px;
+}
+
+.bill-price {
+    display: flex;
+    justify-content: space-between;
+    top: 500px;
+}
+
+.bill-prices {
+    position: absolute;
+    right: 30px;
+    font-size: 25px;
+    top: 215px;
+}
+
+.bill-text {
+    position: absolute;
+    left: 30px;
+    font-size: 25px;
+    top: 215px;
+}
+
+.bill h5 {
+    position: absolute;
+    top: 610px;
+    font-size: 16px;
+}
+
+.bill-logo2 {
+    position: absolute;
+    opacity: 0.1;
+    top: 60px;
+    width: 550px;
+    height: 680px;
+}
+
+.print {
+    position: fixed;
+    right: 80px;
+    top: 70px;
+    z-index: 9999;
+}
+
+.print button {
+    width: 60px;
+    height: 40px;
+    border-radius: 5px;
+}
+
+.prints:hover {
+    background-color: red;
+    color: rgb(245, 245, 245);
+}
